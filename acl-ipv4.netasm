@@ -227,7 +227,7 @@
   JMP 'LBL_IPv4'
   
   # Case: if not allow packet
-  LBL 'LBL_ACL_3',
+  LBL 'LBL_ACL_3'
   
   CTR 'ACL:PACKET_NOT_ALLOWED'
   JMP 'LBL_HLT'
